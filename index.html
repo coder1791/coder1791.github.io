@@ -11,28 +11,37 @@
       font-family: Arial, sans-serif;
       background-color: #f0f0f0;
       padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
     }
 
     h1 {
       text-align: center;
       color: #333;
+      margin-bottom: 20px;
     }
 
     a {
-      color: #007BFF;
+      color: #011103;
       text-decoration: none;
-      padding: 10px;
+      padding: 20px;
       margin: 5px;
       display: inline-block;
-      background-color: #f8f9fa;
+      width: 200px; /* Specify a fixed width for all boxes */
+      text-align: center;
+      background-color: #f26da7;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.15);
       transition: background-color 0.3s;
+      overflow: hidden; /* Ensure text doesn't spill out of boxes */
     }
 
     a:hover {
       color: #0056b3;
-      background-color: #e2e6ea;
+      background-color: #fb1c7d;
     }
 
     .container {
@@ -40,7 +49,6 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 100vh;
     }
   </style>
  </head>
